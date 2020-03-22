@@ -1,0 +1,101 @@
+<!--
+theme name:     LowResPix
+creator:		Viktor (viki.si)
+version         1.3.2
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0.0 -0.39</pos>
+        <size>1 1</size>
+        <logoScale>0.5</logoScale>
+        <zIndex>41</zIndex>          
+        <logoSize>1 1</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>1</maxLogoCount>
+      </carousel>
+       
+      <text name="systemInfo">
+         <zIndex>44</zIndex>       
+         <pos>0.0 0.220</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/joystix.ttf</fontPath>
+	     <fontSize>0.04</fontSize>
+         <zIndex>44</zIndex>	     
+      </text>            
+   </view>
+</feature>
+
+   <view name="detailed,video,basic,system">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/joystix.ttf</fontPath>
+         <fontSize>0.030</fontSize>      
+         <pos>0.015 0.95</pos>      
+         <textColor>000000</textColor>
+         <iconColor>000000</iconColor>
+      </helpsystem>
+   </view> 
+
+   <view name="detailed,video,basic">
+      <textlist name="gamelist">      
+         <selectorColor>1c1c1c00</selectorColor>                     
+         <pos>0.01 0.026</pos>
+         <size>0.45 0.87</size>
+         <selectedColor>f1058d</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/joystix.ttf</fontPath>
+         <fontSize>0.045</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+	     <lineSpacing>1.0</lineSpacing>         
+         <zIndex>42</zIndex>                          
+      </textlist>
+   </view>
+     
+
+   <view name="detailed,video,basic">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>       
+         <path></path>
+      </image>    
+
+   </view>
+
+   <view name="detailed">
+          
+      <image name="md_image">
+         <pos>0.75 0.5</pos>
+         <maxSize>0.45 0.6</maxSize>
+         <zIndex>41</zIndex>         
+      </image>      
+   </view>
+
+   <view name="video">   
+      <video name="md_video">
+         <pos>0.5 0.7</pos>
+         <maxSize>0.43 0.33</maxSize>
+         <delay>1.0</delay>
+         <zIndex>41</zIndex>         
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      <image name="md_marquee">
+         <pos>0.5 0.45</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.16 0.11</maxSize>
+         <zIndex>42</zIndex>         
+      </image>             
+   </view>
+   
+</theme>
